@@ -3,12 +3,6 @@
     "repository":  "android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
-{
-    "remote":      "github",
-    "repository":  "apascual89/proprietary_vendor_google",
-    "target_path": "vendor/google",
-    "branch":      "nougat"
-  },
   {
     "remote":      "github",
     "repository":  "apascual89/hells-Core-PXL",
