@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjni_livedisplay
 
+# NFC
+PRODUCT_PACKAGES += \
+    nfc_nci.pn54x.default
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-lineage
 
