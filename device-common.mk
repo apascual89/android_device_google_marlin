@@ -453,3 +453,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Workaround for audio glitches
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.adm.buffering.ms=3
+
+# Pixel Launcher components
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/PixelLauncher/PixelLauncher.apk:system/app/PixelLauncher/PixelLauncher.apk \
+    $(LOCAL_PATH)/prebuilt/NexusLauncherIcons/NexusLauncherIcons.apk:system/app/NexusLauncherIcons/NexusLauncherIcons.apk \
+    $(LOCAL_PATH)/prebuilt/WallpapersUsTwo/WallpapersUsTwo.apk:system/app/WallpapersUsTwo/WallpapersUsTwo.apk
+
+# Live Earth Wallpapers
+PRODUCT_PACKAGES += \
+    WallpapersBReel
+
+# /symlinks
+PRODUCT_PACKAGES += \
+    libgdx.so \
+    libgeswallpapers-jni.so \
+    libjpeg.so
+
+# wallpaper location prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.wallpapers_loc_request_suw=true
