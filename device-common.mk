@@ -458,7 +458,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/PixelLauncher/PixelLauncher.apk:system/app/PixelLauncher/PixelLauncher.apk \
     $(LOCAL_PATH)/prebuilt/NexusLauncherIcons/NexusLauncherIcons.apk:system/app/NexusLauncherIcons/NexusLauncherIcons.apk \
-    $(LOCAL_PATH)/prebuilt/WallpapersUsTwo/WallpapersUsTwo.apk:system/app/WallpapersUsTwo/WallpapersUsTwo.apk
+    $(LOCAL_PATH)/prebuilt/WallpapersUsTwo/WallpapersUsTwo.apk:system/app/WallpapersUsTwo/WallpapersUsTwo.apk \
+    $(LOCAL_PATH)/prebuilt/NexusWallpapersStub/NexusWallpapersStub.apk:system/app/NexusWallpapersStub/NexusWallpapersStub.apk
 
 # Live Earth Wallpapers
 PRODUCT_PACKAGES += \
