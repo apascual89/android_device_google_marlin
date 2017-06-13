@@ -23,4 +23,4 @@
 
     <!-- Should "LTE"/"4G" be shown instead of "LTE+"/"4G+" when on NETWORK_TYPE_LTE_CA? -->
     <bool name="config_hideLtePlus">true</bool>
-</resources
+</resources>
