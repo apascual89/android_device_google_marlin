@@ -1,10 +1,7 @@
-#GAPPS_VARIANT := nano
-PRODUCT_PACKAGES += Hotword
-#$(call inherit-product, vendor/google/build/opengapps-packages.mk)
-#PRODUCT_COPY_FILES += \
-#  vendor/opengapps/sources/all/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
-$(call inherit-product-if-exists, vendor/gapps/arm64-phone-gapps.mk)
-
+# Inherit prebuilt apps
+$(call inherit-product-if-exists, vendor/gapps/prebuilt.mk)
+#Build Gapps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 #
 # Copyright (C) 2016 The Android Open-Source Project
 #
